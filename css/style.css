@@ -1,0 +1,525 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Habibi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/*--------------nav css start---------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 72px;
+}
+.navlogo{
+    width:228px ;
+    height: 56px;
+}
+nav ul li{
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2%;
+    font-family: 'Gupter', serif;
+    color: #000000;
+    margin-left: 21px;
+    position: relative;
+}
+nav ul li::before{
+    content:'';
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left:0% ;
+    top: 35px;
+    background: #000000;
+   
+}
+nav ul li:hover::before{
+    width: 100%;
+    
+}
+
+.nav_icons i{
+   margin-right: 18px;
+   font-size: 20px;
+}
+/*--------------nav css end---------*/
+/*--------------banner css start---------*/
+#banner{
+    margin-bottom: 30px;
+}
+#banner h2{
+   font-weight: 400px;
+   font-size: 65px;
+   line-height: 76px;
+   letter-spacing: 2%;
+   margin-bottom: 43px;
+  color: #292019; 
+  
+}
+#banner .banner_text{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 28px;
+   letter-spacing: 2%;
+   color: #000000;
+}
+#banner .banner_area{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#banner .banner_img{
+    width: 100%;
+    margin-top: -50px;
+}
+#banner .banner_button{
+    width: 241px;
+    height: 41px;
+    border: 1px solid #C4A586;
+    text-decoration: none;
+    padding: 30px 69px;
+    color: #C4A586;
+    transition: 0.4s;
+    margin-right: 33px;
+}
+#banner .banner_button:hover{
+    background: #C4A586;
+    color: #FFFFFF;
+}
+#banner a{
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: 2%;
+}
+/*--------------banner css end---------*/
+/*--------------house css start---------*/
+#house{
+    margin-bottom: 130px;
+}
+#house .title h5{
+    font-weight: 700px;
+    font-size: 23px;
+    letter-spacing: 2%;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 91px;
+    font-family: 'Gupter', serif;
+}
+#house .house_wrapper{
+    display: flex;
+    gap: 300px;
+}
+#house .brands_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 2%;
+    color: #72696A;
+}
+
+#house .beowse_wrapper{
+    display: flex;
+    gap: 81px;
+    align-items: center;
+}
+#house .house_text{
+    margin-left: 210px;
+    margin-right: 81px;
+}
+#house .house_text h4{
+    font-family: 'Gupter', serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 2%;
+    margin-top: 64px;
+    color: #000000;
+}
+#house .house_text h6{
+    font-family: 'Gupter', serif;
+    font-weight: 600px;
+    font-size: 25px;
+    letter-spacing: 2%;
+    margin-top: 38px;
+    color: #C4A586;
+}
+#house .image_area{
+    margin-top: 78px;
+}
+#house .right_side{
+    background: #C4A586;
+    margin-top: 64px;
+    margin-left: 80px;
+}
+#house .office_wrapper{
+    display: flex;
+}
+#house .office_text{
+     margin-left: 100px;
+     margin-right: 100px;
+}
+#house .office_text h4{
+    font-family: 'Gupter', serif;
+    font-weight: 700px;
+    font-size: 30px;
+    letter-spacing: 2%;
+    color: #000000;
+    margin-top: 74px;
+   
+}
+#house .office_text h5{
+    font-family: 'Gupter', serif;
+    font-weight: 600px;
+    font-size: 25px;
+    letter-spacing: 2%;
+    color: #72696A;
+   margin-bottom: 118px;
+}
+#house .office_image{
+    margin-top: 43px;
+}
+/*--------------house css end---------*/
+/*--------------product css start---------*/
+#Product{
+    margin-bottom: 200px;
+}
+#Product .product_area{
+    display: flex;
+    gap: 60px;
+    padding-top: 30px;
+    margin-left: 250px;
+}
+#Product .product_title h3{
+   font-weight: 700;
+   font-size: 40px;
+   font-family: 'Gupter', serif;
+   letter-spacing: 2%;
+   color: #000000;
+   margin-bottom: 77px;
+}
+#Product .product_area h4{
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#Product .product_area h5{
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#Product .product_area a{
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2%;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: #C4A586;
+}
+#Product .product_area a i{
+    font-size: 40px;
+    color: #C4A586;
+}
+#Product .chair_box{
+    width: 402px;
+    height: 302px;
+    background: rgba(196, 165, 134,0.63);
+    padding-top: 45px;
+    padding-left: 84px;
+    position: relative;
+}
+#Product .chair_box h6{
+    font-family: 'Habibi', serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#Product .dollar_wrapper{
+    display: flex;
+    gap: 20px;
+   
+    padding-left: 70px;
+}
+#Product .dollar_wrapper h4{
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2%;
+    font-family: 'Gupter', serif;
+    color: #000000;
+}
+#Product .dollar_wrapper h5{
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2%;
+    font-family: 'Gupter', serif;
+    color: #72696A;
+}
+#Product .cart_icons a i{
+  font-size: 31px;
+  color: #72696A;
+  
+}
+#Product .cart_icons a{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2%;
+    font-family: 'Gupter', serif;
+    color: #000000;
+    text-decoration: none;
+    width: 208px;
+    height: 68px;
+    background: #D1A070;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translatex(-50%);
+    border-radius: 25px;
+    padding-left: 38px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+#Product .chair_image img{
+  width: 253px;
+  height: 402px;
+  position: absolute;
+  left: 60px;
+  bottom: -250px;
+}
+#Product .middle_box{
+    margin-top: 25px;
+}
+#Product .chair_box .blue_chair{
+    position: absolute;
+    left: 75px;
+    bottom: -192px;
+}
+#Product .last_box{
+    margin-top: 15px;
+}
+#Product .chair_box .white_chair{
+    position: absolute;
+    left: 112px;
+    bottom: -187px;
+}
+#Product .down_box{
+    margin-top: 300px;
+}
+/*--------------product css end---------*/
+/*--------------customer css start---------*/
+#customer{
+   padding-top: 95px;
+   padding-bottom: 95px;
+}
+#customer .customer_text h1{
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 55px;
+   padding-top: 71px;
+   padding-bottom: 34px;
+    color: #000000;
+}
+#customer .customer_text p{
+    font-family: 'Habibi', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    padding-bottom: 83px;
+    color: #000000;
+}
+#customer .text_wrapper{
+    display: flex;
+    gap: 88px;
+   
+}
+#customer .customer_img{
+  margin-left: 70px;
+}
+#customer .customer_main{
+    margin-left: 70px;
+}
+#customer .name_text h4{
+    font-family: 'Gupter', serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#customer .name_text h5{
+    font-family: 'Habibi', serif;
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 76px;
+    letter-spacing: 2%;
+    color: #000000;
+}
+#customer .star_icons i{
+    color: #C4A586;
+    font-size: 22px;
+    transition: 0.4s;
+}
+#customer .star_icons i:hover{
+    color: #72696A;  
+}
+#customer .lasr_part{
+    display: flex;
+    gap: 18px;
+   
+}
+#customer .lasr_part i{
+    width: 33px;
+    height: 33px;
+    border: 2px solid #000000;
+    border-radius: 100%;
+    padding: 5px;
+    transition: 0.4s;
+}
+#customer .lasr_part i:hover{
+    background: #B99272;
+    color: #FFFFFF;
+}
+#customer .girls_picture{
+    display: flex;
+    gap: 36px;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+/*--------------customer css end---------*/
+/*--------------design css start---------*/
+#design{
+    margin-top: 62px;
+    margin-bottom: 114px;
+}
+#design .design_area a{
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 41px;
+    padding-right: 32px;
+    text-decoration: none;
+    border:2px solid #C4A586;
+    border-radius: 30px;
+    font-family: 'Gupter', serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2%;
+    color: #C4A586;
+}
+#design .design_area{
+    margin-left: 140px;
+}
+#design .design_area h2{
+    font-family: 'Gupter', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px ;
+    letter-spacing: 2%;
+    margin-top: 34px;
+    color: #000000;
+}
+#design .design_btn{
+    width: 492px;
+    height: 78px;
+    background: rgba(217, 217, 217,0.51);
+    border: none;
+    border-radius: 15px;
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2%;
+    padding-right: 267px;
+   color: #000000;
+
+}
+#design .stART_BTN{
+    width: 178px;
+    height: 68px;
+    background: #C4A586;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    left: 226px;
+    top: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2%;
+    font-family: 'Gupter', serif;
+    color: #FFFFFF;
+}
+#design .arrow_btn{
+    width: 86px;
+    height: 68px;
+    position: absolute;
+    left: 402px;
+    top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: rgba(196, 165, 134,0.44);
+    font-size: 32px;
+}
+#design .email_button{
+  position: relative;
+  margin-top: 16px;
+}
+#design .watch_image{
+    margin-top: 140px;
+    margin-left: 30px;
+}
+#design .watch_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+#design .grey_chair{
+  position: absolute;
+  right:0 ;
+  top: -39px;
+}
+/*--------------design css end---------*/
+/*--------------footer css start---------*/
+#footer .vectorlogo{
+    display: flex;
+    align-items: center;
+}
+#footer .footer_icons{
+    font-size: 19px;
+    color: #B99272;
+}
+#footer .vector_line{
+    margin-left: 100px;
+}
+#footer .footer_last{
+    width: 100%;
+    height: 100px;
+    font-family: 'Gupter', serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 2%;
+    border-top: 2px solid rgba(114, 105, 106,0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+#footer .footer_last span{
+    color: #C4A586;
+}
+#footer .footer_part{
+    margin-bottom: 15px;
+}
+/*--------------footer css end---------*/

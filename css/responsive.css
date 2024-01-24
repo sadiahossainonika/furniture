@@ -1,0 +1,338 @@
+@media  (min-width: 320px) and (max-width: 575px){
+    #banner h2 {
+       font-size: 53px;
+        line-height: 71px;
+    }
+    #banner .banner_area {
+        margin-bottom: 76px;
+    }
+    #banner .banner_button {
+        width: 235px;
+        height: 62px;
+        display: inline-block;
+        padding: 9px 27px;
+        margin-top: 6px;
+    }
+    #banner .banner_img {
+        margin-top: -19px;
+    }
+    #Product .chair_box {
+        width: 100%;
+        margin-bottom: 254px;
+       
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    #customer .customer_img {
+        margin-left: 9px;
+    }
+    #customer .customer_main {
+        margin-left: 7px;
+    }
+    #house .house_text {
+        margin-left: 18px;
+        margin-right: -12px;
+    }
+    #house .beowse_wrapper {
+        gap: 0px;
+    }
+    #house .house_text h4 {
+         font-size: 27px;
+    }
+    #house .house_text h6 {
+         font-size: 22px;
+       
+    }
+    #house .office_text {
+        margin-left: 17px;
+        margin-right: 41px;
+    }
+    #house .right_side {
+        margin-top: 50px;
+        margin-left: 6px;
+    }
+    #Product .down_box {
+        margin-top: 0px;
+    }
+    #customer {
+        padding-top: 2px;
+      
+    }
+    #Product {
+        margin-bottom: 95px;
+    }
+    #Product .product_area {
+        margin-left: -2px;
+        margin-top: -50px;
+    }
+    #Product .chair_box {
+        margin-top: 60px;
+    }
+    #customer .star_icons i {
+        font-size: 15px;
+
+    }
+    #customer .girls_picture {
+        gap: 2px;
+        margin-left: -10px; 
+    }
+    #design .design_area {
+        margin-left: -4px;
+    }
+    #design .grey_chair {
+        top: 13px;
+    }
+    #design .stART_BTN {
+        width: 131px;
+          left: 143px;
+
+    }
+    #design .arrow_btn {
+        width: 82px;
+          left: 264px;
+    }
+    #design .design_btn {
+        width: 353px;
+        height: 76px;
+        padding-right: 217px;
+    }
+    #customer .customer_text p {
+       padding-bottom: 39px;
+    }
+    #customer .customer_text h1 {
+         font-size: 47px;
+        padding-top: 38px;
+        padding-bottom: 20px;
+      
+    }
+}
+@media  (min-width: 576px) and (max-width: 768px){
+    #banner h2 {
+        font-size: 46px;
+        line-height: 71px;
+    }
+    #banner .banner_area {
+        margin-bottom: 76px;
+    }
+    #banner .banner_button {
+        width: 235px;
+        height: 62px;
+        display: inline-block;
+        padding: 9px 27px;
+        margin-top: 6px;
+        margin-right: 5px;
+    }
+    #banner .banner_img {
+        margin-top: -19px;
+        margin-left: 75px;
+    }
+    #Product .chair_box {
+        width: 100%;
+        margin-bottom: 254px;
+       
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    #customer .customer_img {
+        margin-left: 9px;
+    }
+    #customer .customer_main {
+        margin-left: 7px;
+    }
+    #house .house_text {
+        margin-left: 43px;
+        margin-right: 153px;
+    }
+    #house .beowse_wrapper {
+        gap: 0px;
+    }
+    #house .house_text h4 {
+         font-size: 27px;
+    }
+    #house .house_text h6 {
+         font-size: 22px;
+       
+    }
+    #house .office_text {
+        margin-left: 17px;
+        margin-right: 41px;
+    }
+    #house .right_side {
+        margin-top: 50px;
+        margin-left: 6px;
+    }
+    #Product .down_box {
+        margin-top: 0px;
+    }
+    #customer {
+        padding-top: 2px;
+      
+    }
+    #Product {
+        margin-bottom: 95px;
+    }
+    #Product .product_area {
+        margin-left: -2px;
+        margin-top: -50px;
+    }
+    #Product .chair_box {
+        margin-top: 60px;
+    }
+    #customer .star_icons i {
+        font-size: 15px;
+
+    }
+    #customer .girls_picture {
+        gap: 2px;
+        margin-left: -10px; 
+    }
+    #design .design_area {
+        margin-left: -4px;
+    }
+    #design .grey_chair {
+        top: 13px;
+    }
+    #customer .customer_text p {
+       padding-bottom: 39px;
+    }
+    #customer .customer_text h1 {
+         font-size: 47px;
+        padding-top: 38px;
+        padding-bottom: 20px;
+      
+    }
+    #Product .chair_image img {
+         left: -1px;
+     
+    }
+    #Product .chair_box .blue_chair {
+      
+        left: 14px;
+     
+    }
+    #Product .chair_box .white_chair {
+    left: 27px;
+       
+    }
+    #design .watch_image {
+        margin-left: 1px;
+    }
+}
+@media  (min-width: 769px) and (max-width: 992px){
+    #banner h2 {
+        font-size: 46px;
+        line-height: 71px;
+    }
+    #banner .banner_area {
+        margin-bottom: 76px;
+    }
+    #banner .banner_button {
+        width: 235px;
+        height: 62px;
+        display: inline-block;
+        padding: 9px 27px;
+        margin-top: 6px;
+        margin-right: 5px;
+    }
+    #banner .banner_img {
+        margin-top: -19px;
+        margin-left: 75px;
+    }
+    #Product .chair_box {
+        width: 100%;
+        margin-bottom: 254px;
+       
+    }
+    .customer_img img{
+        width: 100%;
+    }
+    #customer .customer_img {
+        margin-left: 9px;
+    }
+    #customer .customer_main {
+        margin-left: 7px;
+    }
+    #house .house_text {
+        margin-left: 43px;
+        margin-right: 153px;
+    }
+    #house .beowse_wrapper {
+        gap: 0px;
+    }
+    #house .house_text h4 {
+         font-size: 27px;
+    }
+    #house .house_text h6 {
+         font-size: 22px;
+       
+    }
+    #house .office_text {
+        margin-left: 17px;
+        margin-right: 41px;
+    }
+    #house .right_side {
+        margin-top: 50px;
+        margin-left: 6px;
+    }
+    #Product .down_box {
+        margin-top: 0px;
+    }
+    #customer {
+        padding-top: 2px;
+      
+    }
+    #Product {
+        margin-bottom: 95px;
+    }
+    #Product .product_area {
+        margin-left: -2px;
+        margin-top: -50px;
+    }
+    #Product .chair_box {
+        margin-top: 60px;
+    }
+    #customer .star_icons i {
+        font-size: 22px;
+
+    }
+    #customer .girls_picture {
+        gap: 2px;
+        margin-left: -10px; 
+    }
+    #design .design_area {
+        margin-left: -4px;
+    }
+    #design .grey_chair {
+        top: 13px;
+    }
+    #customer .customer_text p {
+       padding-bottom: 39px;
+    }
+    #customer .customer_text h1 {
+         font-size: 47px;
+        padding-top: 38px;
+        padding-bottom: 20px;
+      
+    }
+    #Product .chair_image img {
+         left: -1px;
+     
+    }
+    #Product .chair_box .blue_chair {
+      
+        left: 14px;
+     
+    }
+    #Product .chair_box .white_chair {
+    left: 27px;
+       
+    }
+    #design .watch_image {
+        margin-left: 1px;
+    }
+    #house .title h5 {
+          margin-bottom: 54px;
+    }
+}
